@@ -3,17 +3,17 @@ import smtplib, ssl, requests, json
 
 port = 465
 smtp_server = "smtp.gmail.com"
-sender_email = "emailbot946@gmail.com"  # Enter your address
-receiver_email = "shivansh0708@gmail.com"  # Enter receiver address
-password = "$#%&secure!!"  #  Enter password of your email address
+sender_email = "enter here"  # Enter your address
+receiver_email = "enter here"  # Enter receiver address
+password = "enter here"  #  Enter password of your email address
 
 message = """"""
 
-url1 = "https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=ff3ad897d91446ddb484113af3c33571"
-url2 = "https://newsapi.org/v2/everything?q=tesla&from=2021-12-06&sortBy=publishedAt&apiKey=ff3ad897d91446ddb484113af3c33571"
-url3 = "https://newsapi.org/v2/everything?q=apple&from=2022-01-05&to=2022-01-05&sortBy=popularity&apiKey=ff3ad897d91446ddb484113af3c33571"
-url4 = "https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=ff3ad897d91446ddb484113af3c33571"
-url5 = "https://newsapi.org/v2/everything?domains=wsj.com&apiKey=ff3ad897d91446ddb484113af3c33571"
+url1 = "enter api url from newsapi.org"
+url2 = "enter api url from newsapi.org"
+url3 = "enter api url from newsapi.org"
+url4 = "enter api url from newsapi.org"
+url5 = "enter api url from newsapi.org"
 
 urls = [url1, url2, url3, url4, url5]
 
